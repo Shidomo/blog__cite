@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+<body>
+    <header class="container-fluid p-md-4 p-1">
+        <div class="row d-md-flex justify-content-between bg-white p-md-4 m-md-3 text-center align-items-center" >
+            <div class="col-md-3 bg-white d-flex justify-content-center flex-md-row">
+                <div class="row col-md-12 col-6 align-items-center">
+                    <span class="col-md-6 log col-6">
+                        <img class="logo col-md-12 col-12" src="svg/logo.svg" alt="1">
+                    </span>
+                    <span class="col-sm-4 offset-md-2 col-4 offset-1">
+                        <h2 class="col">Шапка</h2>
+                        <h2 class="col text-danger">Blog</h2>
+                    </span>
+                </div> 
+            </div>
+            <div class="col-lg-3 col-md-6 offset-md-1 p-md-0 p-3 ">
+                <input type="text" class="search" placeholder="Поиск" onclick="openSearch()" ></div>
+            <div class="col-lg-3 m-lg-3 col-12 mb-2">
+                <ul class="nav nav-pills justify-content-evenly flex-nowrap">
+                    <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Статьи</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="container-fluid p-2">
+        <div class="row p-sm-4 m-sm-3 p-2 m-0">
+            <div class="col-lg-6 col-sm-12">
+                <h1 class="">3 основные сферы применения языка Python</h1>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequatur earum expedita nemo sapiente quibusdam! Ipsam minima, iure perferendis sapiente nesciunt hic. Delectus, ut consequuntur deleniti ea voluptatum ab aliquam odit earum voluptate inventore totam cum sint fugiat, recusandae autem consectetur quidem repellat. Corporis dolorem temporibus, soluta quo asperiores molestias?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam debitis delectus quas, maxime quaerat molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cum ex impedit placeat minima eveniet quis assumenda ipsa, quidem aut ut, nisi quae, incidunt natus beatae vitae provident necessitatibus sint temporibus accusamus in dolorum deserunt recusandae? Cum totam blanditiis assumenda.</span><br><br>
+                <button class="btn-danger ">Читать далее</button>
+            </div>
+            <div class="col-lg-4 offset-lg-1 col-md-12 m-md-2 p-sm-0 mt-2"><img class="img-thumbnail" src="https://seoukraine.com.ua/wp-content/uploads/2019/03/google_logo_image.jpg" alt="1"></div>
+        </div>
+    </main>
+    <div class="container-fluid" style="background: #e4e4e4;">
+		<div class="row articles ">
+			<div class="col-md-8 col-12 d-flex justify-content-center flex-column align-items-center d-md-block align-items-center"  >
+                <h3>Новости</h3>
+                <div class="d-sm-flex  flex-md-row flex-md-wrap flex-sm-column flex-column " id="apps">
+                    <div class="card">
+					<img src="https://itproger.com/img/news/1534765244.jpg" alt="3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Сравнение движков: Unreal Engine 4 против Unity 5</h5>
+                            <p class="card-text">Выбрать движок дело не простое, а особенно когда оба очень хороши. В статье мы проведем сравнение двух программ и выясним какой движок использовать именно Вам!</p>
+                            <a href="#" class="btn btn-warning">Читать далее</a>
+                        </div>
+				</div>
+				
+				<div class="card">
+					<img src="https://itproger.com/img/news/1534137690.jpg" alt="4" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title">7 девушек айтишниц из фильмов и сериалов</h5>
+						<p class="card-text">Много ли вы знаете фильмов и сериалов, где главные персонажы это девушки программисты? Мы подобрали 7 фильмов с такой концепцией.</p>
+						<a href="#" class="btn btn-warning">Читать далее</a>
+					</div>
+				</div>
+				
+				<div class="card">
+					<img src="https://itproger.com/img/news/1532948245.jpg" alt="5" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">11 полезных инструментов для веб-разработчика</h5>
+                            <p class="card-text">Разработчики постоянно пытаются сделать свою жизнь проще или расширить собственные возможности. Мы подготовили 11 инструментов, которые это обеспечат.</p>
+                            <a href="#" class="btn btn-warning">Читать далее</a>
+                        </div>
+				</div>
+				
+				<div class="card">
+					<img src="https://itproger.com/img/news/1534139040.jpg" alt="5" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Что такое Deep Learning? Как работает глубокое обучение?</h5>
+                            <p class="card-text">Как работает глубокое обучение и что оно из себя представляет? В ходе статьи мы расскажем про Deep Learning и разберемся с его ключевыми понятиями.</p>
+                            <a href="#" class="btn btn-warning">Читать далее</a>
+                        </div>         
+			        </div>
+                    
+                    
+                </div>
+                <div id="app" class="d-flex flex-wrap justify-content-center"></div>
+            </div>
+
+			<div class="col-md-4 col-12 d-flex flex-column float-start align-items-center align-items-md-baseline mt-5 mt-md-0">
+				<h3>Анонсы</h3>
+                
+				<div class="p-3 mb-3 bg-light text-dark rounded">
+					Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+				</div>
+				
+				<div class="p-3 mb-3 bg-info text-light rounded">
+					<img src="https://itproger.com/img/news/1546853933.jpg" alt="5" class="img-thumbnail">
+					<br><br>
+					<p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<button type="button" class="btn btn-light">Читать далее</button>
+				</div>
+			</div>
+        </div>
+	</div>
+
+    
+
+    <footer class="container-fluid pt-md-4 ps-md-4 pe-md-4">
+        <div class="row me-md-3 ms-md-3 p-md-3 p-3 bg-white">
+            <div class="col-12 text-center">
+                <h3>Все права защищены &copy;</h3>
+            </div>           
+        </div>        
+    </footer>
+<div id="myOverlay" class="overlay">       
+    <div class="overlay-content flex-column align-items-center">
+        <h2>Поле поиска информации</h2>
+        <form class="d-flex align-items-center">     
+        <input type="text" placeholder="Поиск" name="search" class="search">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">X</span>
+        </form>
+    </div>
+</div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="js/main.js"></script>
+    
+
+</body>
+</html>
